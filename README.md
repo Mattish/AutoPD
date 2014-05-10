@@ -6,6 +6,8 @@ Scrappy project made for some automation of the P2P program Perfect Dark.
 
 **I am not responsible for anything you download or *accidentally* download with this**  
 
+I was lazy in memory searching, so it can/will take ages to do intial searching. It will also eat up bunch of memory when it does this so I hope you like paging.  
+
 ###Things to make this work: ###
 =====
 * All automation is done in the top split section.  
