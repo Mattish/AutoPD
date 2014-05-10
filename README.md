@@ -6,17 +6,20 @@ Scrappy project made for some automation of the P2P program Perfect Dark.
 
 **I am not responsible for anything you download or *accidentally* download with this**  
 
-
-All automation is done in the top split section.  
-Updates to the PD can/will break this.  
-Setting the visual style in PD to "new style" is a requirement for functioning correctly.  
-PD cannot be minimized for this to work correctly, as it automates based on PostMessage to the window handle.  
-Could be improved to prevent focus pulling.  
+###Things to make this work: ###
+=====
+*All automation is done in the top split section.  
+*Updates to the PD can/will break this.  
+*Setting the visual style in PD to "new style" is a requirement for functioning correctly.  
+*PD cannot be minimized for this to work correctly, as it automates based on PostMessage to the window handle.  
+*Could be improved to prevent focus pulling.  
+*You must select the item in the search tree for the section to search/work on. It will not go through them.  
+*The Filters are naive  
 
 This is a old project created in a weekend.  
 may(not) get updated.  
   
-Memory stuff
+###Memory stuff###
 -----
 Offsets I use in memory in the table to get the item information  
 0x0 - Table Item Start  
