@@ -40,40 +40,6 @@ namespace Perfect_Dark_Automation {
             Log.WriteLine("Changed refresh interval to " + timer1.Interval + "ms");
         }
 
-        private void button2_Click(object sender, EventArgs e) {
-            Redis.Do_It();
-        }
-
-        private void timer2_Tick(object sender, EventArgs e) {
-            Redis.Do_It();
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e) {
-            if (checkBox2.Checked == false) {
-                Log.WriteLine("Redis updating disabled");
-                timer2.Stop();
-            }
-            else {
-                int tmp = Redis.CheckRedisServer(textBox4.Text, Int32.Parse(textBox5.Text), textBox6.Text);
-                if (tmp == -1) {
-                    label11.Text = "Unable to connect to server";
-                    checkBox2.Checked = false;
-                }
-                else if (tmp == 0) {
-                    label11.Text = "Key empty or incorrect";
-                    checkBox2.Checked = false;
-                }
-                else {
-                    timer2.Start();
-                    label11.Text = "Ok.";
-                }
-            }
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e) {
-            timer2.Interval = (Int32.Parse(comboBox2.Text) * 1000);
-            Log.WriteLine("Redis update interval to " + timer2.Interval + "ms");
-        }
 
         private void button3_Click(object sender, EventArgs e) {
             if (button3.Text == "Go") {

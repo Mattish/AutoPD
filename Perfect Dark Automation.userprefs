@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Perfect Dark Automation/Memory.cs">
+    <Files>
+      <File FileName="Perfect Dark Automation/PerfectDark.cs" Line="1" Column="1" />
+      <File FileName="Perfect Dark Automation/Memory.cs" Line="219" Column="69" />
+      <File FileName="Perfect Dark Automation/Form1.cs" Line="48" Column="27" />
+      <File FileName="Perfect Dark Automation/UI.cs" Line="122" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Perfect Dark Automation" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
