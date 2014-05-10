@@ -2,8 +2,10 @@ AutoPD
 ======
 
 Automation for Perfect Dark
-Scrappy project made for some automation of the P2P program Perfect Dark. 
-**I am not responsible for anything you download or *accidental* download with this**  
+Scrappy project made for some automation of the P2P program Perfect Dark.  
+
+**I am not responsible for anything you download or *accidentally* download with this**  
+
 
 All automation is done in the top split section.  
 Updates to the PD can/will break this.  
